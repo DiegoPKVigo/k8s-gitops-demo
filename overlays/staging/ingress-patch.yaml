@@ -4,7 +4,8 @@ metadata:
   name: webapp-ingress
 spec:
   rules:
-  - http:
+  - host: kubernetes.docker.internal
+    http:
       paths:
       - path: /staging
         pathType: Prefix
