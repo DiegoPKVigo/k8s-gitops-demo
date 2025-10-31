@@ -10,6 +10,7 @@ bases:
 patchesStrategicMerge:
   - replica-patch.yaml
   - configmap-patch.yaml
+  - healthcheck-patch.yaml
 
 commonLabels:
   environment: dev
