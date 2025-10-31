@@ -11,6 +11,7 @@ patchesStrategicMerge:
   - replica-patch.yaml
   - configmap-patch.yaml
   - healthcheck-patch.yaml
+  - ingress-patch.yaml
 
 commonLabels:
   environment: dev
